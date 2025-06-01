@@ -1,0 +1,8 @@
+                             precision    recall  f1-score   support
+
+Arctocephalus_galapagoensis       1.00      0.60      0.75         5
+        Zalophus_wollebaeki       0.83      1.00      0.91        10
+
+                   accuracy                           0.87        15
+                  macro avg       0.92      0.80      0.83        15
+               weighted avg       0.89      0.87      0.86        15

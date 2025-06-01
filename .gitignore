@@ -1,0 +1,24 @@
+# Ignore Python specific files
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+
+# Ignore dataset folders (because they are large and shouldn't be committed directly)
+# Ensure any folder containing raw images or processed images is listed here
+combined_dataset_for_kfold/
+train/
+test/
+validation/
+# Add any other large data folders you might have
+
+# Ignore specific large files not managed by LFS if any
+*.zip
+*.tar.gz
+
+# Ignore environment files if you were using a virtual environment locally
+.venv/
+env/
+
+# Ignore any temporary files or output files you don't want versioned
+*.log
+*.out
