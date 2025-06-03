@@ -2,6 +2,20 @@
 
 This repository presents a comprehensive deep learning project focused on the precise identification of two key Galapagos seal species: the **Galapagos Fur Seal** (*Arctocephalus galapagoensis*) and the **Galapagos Sea Lion** (*Zalophus wollebaeki*).
 
+## Making predictions
+
+To use the best-performing InceptionV3 model (from the Hybrid case) to predict on new images:
+
+1. **Open the prediction notebook:** Navigate to Notebooks/Predict-new-case_SealClassification.ipynb.
+
+2. **Mount Google Drive:** Ensure your Google Drive is mounted within the Colab environment to access the saved model.
+
+3. **Verify Model Path:** Confirm that the model_path variable in the notebook correctly points to your saved best_model.h5 (e.g., in Results/inceptionv3_classification_hybrid_case/).
+
+4. **Upload Image:** Run the cell that prompts you to upload a new image file.
+
+5. **View Prediction:** The notebook will then display the predicted species class and its confidence score.
+
 ## Project Overview
 
 The core of this project involves developing and evaluating robust image classification models. Key aspects include:
