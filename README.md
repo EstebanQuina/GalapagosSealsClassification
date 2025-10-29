@@ -25,31 +25,6 @@ The core of this project involves developing and evaluating robust image classif
 
 The ultimate goal is to build a reliable AI-powered solution for real-time species identification, significantly aiding conservation efforts and ecological monitoring in the Galapagos Islands.
 
-## Repository Structure
-
-The project files are organized as follows:
-
-* `Notebooks/`: Contains all the Jupyter notebooks used throughout the project lifecycle.
-    * `DataCollection/`: Notebooks related to data gathering and initial processing.
-    * `ObjectDetection/`: Notebooks for object detection tasks (if applicable).
-    * `ObjectClassification/`: Notebooks for single-image classification experiments with different models and balancing strategies.
-    * `k-fold_cross-validation/`: Notebooks detailing the K-fold cross-validation process and final model evaluation.
-* `Results/`: Stores all the output from various model training runs and evaluations.
-    * `vgg16_classification_undersampled_case/`
-    * `vgg16_classification_oversampled_case/`
-    * `vgg16_classification_hybrid_case/`
-    * `vgg16_classification_control_case/`
-    * `resnet50v2_classification_undersampled_case/`
-    * `resnet50v2_classification_oversampled_case/`
-    * `resnet50v2_classification_hybrid_case/`
-    * `resnet50v2_classification_control_case/`
-    * `inceptionv3_classification_undersampled_case/`
-    * `inceptionv3_classification_oversampled_case/`
-    * `inceptionv3_classification_hybrid_case/`
-    * `inceptionv3_classification_control_case/`
-    * `kfold_results/`: Contains the final K-fold cross-validation aggregated metrics, individual fold models, histories, and confusion matrices.
-* `requirements.txt`: Lists all Python dependencies for the project.
-* `.gitignore`: Specifies files and directories to be ignored by Git.
 
 ## Data
 
